@@ -140,6 +140,7 @@ button{
 }
 .btn{
     margin-left: 200px;
+    
 }
 .heroimg{
     padding-top: 60px;
@@ -152,6 +153,7 @@ h1{
 }
 .left p{
     padding-top: 10px;
+    margin-bottom: 20px;
 }
 .toptext{
     
@@ -159,15 +161,32 @@ h1{
 }
 .toptext a{
     align-items: center;
+  
 }
 .right a{
     margin:15px;
 }
 .right p{
     margin-top: 30px;
+ 
 }
 .btn{
     margin-left: 40%;
 
 }
-  
+
+@media(max-width: 1000px){
+       body{
+        display:flex;
+        flex-direction: column;
+        text-align: center;
+       }
+       img{
+        margin: 0 auto;
+        align-items: left;
+       }
+       .btn{
+        margin: 0 auto;
+       }
+
+}
