@@ -1,0 +1,173 @@
+
+/* input field with icons */
+.input-icons i {
+    position: absolute;
+}
+.input-icons {
+    margin-bottom: 10px;
+}
+.icon {
+    padding: 10px;
+    padding-left:20px;
+    text-align: center;
+    padding-top: 15px;
+}
+.input-field {
+    padding: 15px;
+    text-align: center;
+    border: .5px solid lightgray;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 400px;
+    
+}
+/* social media icons */
+
+.fa:hover {
+    opacity: 0.7;
+  }
+.fa-facebook {
+  padding: 20px;
+  font-size: 30px;
+  width: 0 auto;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  background: #3B5998;
+  color: white;
+  }
+.fa-twitter {
+    padding: 20px;
+    font-size: 30px;
+    width: 0 auto;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    background: #55ACEE;
+    color: white;
+  }
+.fa-google {
+        padding: 20px;
+    font-size: 30px;
+    width: 0 auto;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+        background: #dd4b39;
+        color: white;
+  }
+.fa-linkedin {
+        padding: 20px;
+    font-size: 30px;
+    width: 0 auto;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+        background: #007bb5;
+        color: white;
+  }
+    
+/*BODY  */
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+body{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    margin:0;
+}     
+
+.left {
+    background-color: rgb(52, 52, 240);
+    border-radius:100% 0% 82% 18% / 0% 2% 98% 120%;
+    padding-top: 20px;
+  
+}
+.left a{
+    text-decoration: none;
+    color:white;
+    border: 1px solid white;
+    border-radius: 25px;
+    padding: 10px 40px;
+}
+.left p{
+    color:white;
+    text-align: center;
+}
+.right{
+    align-items: center;
+    text-align: center;
+    gap:50px;
+    margin: 0;
+    object-fit:cover;
+}
+img{
+    width: 400px;
+   margin-left:300px;
+    
+}
+
+form{
+    height: 100%;
+    
+}
+.input-icons{
+    margin: 50px;
+   
+}
+
+.left p{
+    margin:unset;
+    padding: unset;
+   
+}
+button{
+    
+    text-align: center;
+    background-color: rgb(52, 52, 240);
+    color: white;
+    border-color: rgb(52, 52, 240);
+    border-radius: 25px;
+    width:60%;
+    font-size: large;
+    font-weight: 700;
+    padding:10px;
+    max-width: 300px;
+    
+}
+.btn{
+    margin-left: 200px;
+}
+.heroimg{
+    padding-top: 60px;
+     
+}
+h1{
+    padding-top: 60px;
+    font-size: unset;
+    font-size: xxx-large;
+}
+.left p{
+    padding-top: 10px;
+}
+.toptext{
+    
+    align-items: center;
+}
+.toptext a{
+    align-items: center;
+}
+.right a{
+    margin:15px;
+}
+.right p{
+    margin-top: 30px;
+}
+.btn{
+    margin-left: 40%;
+
+}
+  
