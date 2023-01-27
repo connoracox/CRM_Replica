@@ -1,0 +1,91 @@
+*{
+    font-family: sans-serif;
+    box-sizing: border-box;
+    
+}
+
+body{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.signup{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    max-width:450px;
+    margin: 50px 0 0 50px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    max-width:450px;
+}
+
+.social{
+    display: flex;
+    margin: 20px;
+    justify-content: space-between;
+    border: 1px solid black;
+    padding: 10px;
+    width: 300px;
+}
+.social img{
+    width: 50px;
+}
+.btn{
+    border: 1px solid white;
+    padding:15px;
+    font-size: 20px;
+    line-height: 15px;
+    font-weight: 600;
+    background-color: blue;
+    color: white;
+    border-radius: 25px;
+    width: 150px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.hugeimg img{
+    width: 500px;
+    height:auto;
+    margin: 150px 0 0 0;
+
+}
+
+h2{
+    padding-bottom: 20px;
+    font-size: 40px;
+}
+  
+.input-icons {
+    width: 100%;
+    margin-bottom: 40px;
+    position: relative;
+}
+  
+.icon {
+    color: black;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    left: 20px;
+}
+  
+.input-field {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    border-radius: 25px;
+    border: .5px solid black;
+}
+  
