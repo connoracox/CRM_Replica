@@ -15,3 +15,5 @@ Contributions were as follows:
 
 Additionally, we all helped each other with different errors and formatting issues we ran into.
 
+##Languages:
+We used HTML and CSS for this project.
