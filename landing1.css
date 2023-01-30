@@ -1,0 +1,65 @@
+*{
+    font-family: sans-serif;
+    box-sizing: border-box;
+    
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.attributes{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.attributes2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.email{
+    text-align: center;
+    width: 300px;
+    padding: 50px;
+}
+
+.task{
+    text-align: center;
+    width: 300px;
+    padding: 50px;
+}
+
+.analytics{
+    text-align: center;
+    width: 300px;
+    padding: 50px;
+}
+
+.calendar{
+    text-align: center;
+    width: 300px;
+    padding: 50px;
+}
+
+img{
+    width: 100px;
+}
+
+p{
+    font-size: 8px;
+
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 8px;
+    padding: 3px 20px;
+    border: 1px solid black;
+}
