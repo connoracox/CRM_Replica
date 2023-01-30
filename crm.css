@@ -145,6 +145,10 @@ header{
     width: 550px;
 }
 
+.span1{
+    font-weight: bold;
+}
+
 .howitworks{
     max-width: 300px;
     margin: 0 auto;
