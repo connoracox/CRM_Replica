@@ -1,0 +1,262 @@
+body{
+    margin: 0;
+}
+
+/* Start Global Styling */
+
+a{
+    text-decoration: none;
+}
+
+.span{
+    color: blue;
+}
+
+/* End Global Styling */
+
+
+/* Start Header Styling */
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 0 180px;
+}
+
+.logo{
+    height: 35px;
+}
+
+.nav-bar{
+    display: flex;
+    list-style-type: none;
+}
+
+.nav-mid{
+    gap: 60px;
+}
+
+.nav-mid a{
+    color: black;
+    font-weight: 300;
+}
+
+.nav-right{
+    gap: 15px;
+}
+
+.btn{
+    padding: 10px 10px;
+    border: 1px solid blue;
+    border-radius: 8px;
+}
+
+.btn-sign{
+    color: blue;
+}
+
+.btn-try{
+    background-color: blue;
+    color: white;
+}
+
+
+/* End Header Styling */
+
+/* Start Hero Styling */
+
+.hero{
+    margin: 0 auto;
+    margin-top: 35px;
+    display: flex;
+    align-items: center;
+    height: 500px;
+    justify-content: center;
+}
+
+.hero-content h1{
+    font-size: 50px;
+    font-weight: 600;
+    max-width: 300px;
+    line-height: 65px;
+}
+
+.hero-content h4{
+    font-size: 25px;
+    font-weight: 400;
+    
+}
+
+.g1{
+    color: gray;
+    max-width: 450px;
+}
+
+.btn-row{
+    padding-top: 15px;
+}
+.btn1{
+    padding: 10px 10px;
+    border: 1px solid blue;
+    border-radius: 8px;
+}
+
+.bt{
+    color: blue;
+    font-weight: 600;
+}
+
+.btn-dark{
+    background-color: blue;
+    color: white;
+}
+
+.hero-image img{
+    width: 400px;
+    height: auto;
+}
+
+.Already{
+    color: gray;
+    padding-top: 10px;
+}
+
+
+.sen{
+    font-size: x-small;
+    padding-top: 10px;
+}
+
+/* End Hero Styling */
+
+
+/* Start Container Styling */
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.line{
+    border: .5px darkgray solid;
+    width: 550px;
+}
+
+.howitworks{
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.howitworks h5{
+    font-size: medium;
+   text-align: center;
+}
+
+.mid{
+    border: 1px solid black;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+    height: 360px;
+    width: 625px;
+}
+
+.midtext{
+    max-width: 350px;
+    color: white;
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 30px;
+}
+
+
+.cui{
+    font-size: large;
+    padding-left: 35px;
+}
+
+
+.midpic1{
+    width: 250px;
+    height: 250px;
+}
+
+.howitworks2{
+        max-width: 300px;
+        margin: 0 auto;
+    }
+
+
+.bot2{
+    overflow: hidden;
+    display: flex;
+    border-radius: 15px;
+    height: 360px;
+    width: 675px;
+}
+
+.bottext{
+    text-align: center;
+    color: white;
+    background-color: blue;
+}
+
+.gps{
+    font-size: 25px;
+    padding: 30px;
+}
+
+.gps1{
+    padding: 0 15px;
+}
+
+.botpic1{
+    width: 200px;
+    height: 265px;
+    margin-right: 40px;
+}
+
+.space{
+    margin: 20px;
+}
+
+
+
+/* End Container Styling */
+
+/* Start Of Footer Styling */
+
+.footer{
+    background-color: blue;
+    margin-top: 20px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.btn2{
+    padding: 8px 8px;
+    border: 1px solid blue;
+    border-radius: 8px;
+    font-size: small;
+}
+
+.btn-left{
+    background-color: lime;
+    color: white;
+}
+
+.btn-right{
+    background-color: white;
+}
+
+
+/* End of Footer Styling */
