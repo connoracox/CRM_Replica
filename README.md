@@ -9,8 +9,11 @@ We each took on a different page of the assignment and helped each other along t
 Contributions were as follows:
 
 *Connor- sign_up.html and sign_up.css (possibly still listed as main.css), and div.body1 section in landingpage.html
+
 *Ashmika- signin.html and signin.css and researching how to pull different icons for everyone's pages in the project.
+
 *Chad- landingpage.html and landingpage.css
+
 *Joseph- index.html and crm.css
 
 Additionally, we all helped each other with different errors and formatting issues we ran into.
